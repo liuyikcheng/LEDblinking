@@ -1,5 +1,7 @@
 #include "Blinking.h"
 
+//PA0 as buttonA
+//PB4 as buttonB
 
 void buttonHold(TaskState *ts){
   switch(ts->state){
